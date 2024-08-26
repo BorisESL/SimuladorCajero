@@ -16,7 +16,7 @@ function validarPin() {
 }
 
 function consultarSaldo() {
-    alert("Su saldo actual es $ " + saldo);
+    alert("Su saldo actual es : $ " + saldo);
 }
 
 function retirarDinero() {
@@ -27,7 +27,7 @@ function retirarDinero() {
         alert("Saldo insuficiente")
     } else {
         saldo -= monto;
-        alert("Retiro exitoso. Su saldo actual es de :" + saldo);
+        alert("Retiro exitoso. Su saldo actual es de : $ " + saldo);
     }
 }
 
@@ -37,7 +37,7 @@ function depositarDinero() {
         console.log("monto inválido. Favor ingrese un monto valido");
     } else {
         saldo += monto;
-        alert("Depósito exitoso. Su saldo actual es de : " + saldo);
+        alert("Depósito exitoso. Su saldo actual es de : $ " + saldo);
     }
 }
 
